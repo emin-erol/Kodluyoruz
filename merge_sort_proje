@@ -1,0 +1,11 @@
+Dizimiz: [16,21,11,8,12,22]
+
+- Merge Sort algoritmasına göre adımları
+
+1. adım: [16,21,11],[8,12,22] (diziyi ikiye böldük)
+2. adım: [16],[21,11],[8],[12,22] (tekrar bölme işlemi yaptık)
+3. adım: [16],[11,21],[8],[12,22] (her parçayı kendi içinde sıraladık)
+4. adım: [11,16,21],[8,12,22] (4 parçayı birleştirerek 2 parça haline geri getirip sıraladık)
+5. adım: [8,11,12,16,21,22] (2 parçayı da birleştirerek tekrar sıraladık ve sıralı dizi oluştu)
+
+- BigO Notasyonu: O(nlogn)
